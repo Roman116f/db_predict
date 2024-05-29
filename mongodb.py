@@ -1,3 +1,4 @@
+# python -m pip install "pymongo[srv]"==3.11
 
 from pymongo.mongo_client import MongoClient
 
