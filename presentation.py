@@ -1,13 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import datetime
-import time
-import folium
-from streamlit_folium import st_folium
-import pytz
-from folium import features
-import threading
 import locale
 
 # Lokalisierung auf Deutsch setzen
