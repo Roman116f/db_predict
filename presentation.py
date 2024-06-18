@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Flug Tracking: FRA - OSL", layout="wide")
+st.set_page_config(page_title="Flight Status - Fetching Live API Data", layout="wide")
 
 def show_overview():
     st.title("Flight Status - Fetching Live API Data")
@@ -14,6 +14,7 @@ def show_overview():
     Diese AWS Lambda-Funktion ruft in Echtzeit Flugdaten und Flugzeuginformationen ab und speichert sie in einer Cloud-Datenbank (MongoDB). 
     Aktuelle Flugdaten (Abflugzeit, Ankunftszeit, Flugstatus usw.) werden von der Lufthansa-API abgerufen.
     Die ADSBexchange-API liefert Live-Daten des Flugzeugs. Basierend auf den Positionen des Flughafens und des Flugzeugs sowie unter Anwendung der Haversine-Formel wird die aktuelle Position des Flugzeugs berechnet und die Flugroute dargestellt (Beispiel siehe unten).
+    <br><br>
     """)
     st.image("lufthansa_flug.png", width=1125)
     # Lufthansa-Logo und Titel hinzufügen
