@@ -1,8 +1,4 @@
 import streamlit as st
-import locale
-
-# Lokalisierung auf Deutsch setzen
-locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8')
 
 st.set_page_config(page_title="Flug Tracking: FRA - OSL", layout="wide")
 
