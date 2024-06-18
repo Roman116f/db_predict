@@ -5,3 +5,5 @@ This AWS Lambda function retrieves flight data and aircraft information in real 
 
 German:
 Diese AWS Lambda-Funktion ruft in Echtzeit Flugdaten und Flugzeuginformationen ab und speichert sie in einer Cloud-Datenbank (MongoDB). Aktuelle Flugdaten (Abflugzeit, Ankunftszeit, Flugstatus usw.) werden von der Lufthansa-API abgerufen. Die ADSBexchange-API liefert Live-Daten des Flugzeugs. Basierend auf den Positionen des Flughafens und des Flugzeugs sowie unter Anwendung der Haversine-Formel wird die aktuelle Position des Flugzeugs berechnet und die Flugroute dargestellt (siehe unten).
+
+![streamlitapp](https://github.com/Roman116f/flights_predict/assets/161879590/bd001134-a0b4-4a2e-9cc9-928419adb892)
