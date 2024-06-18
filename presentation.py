@@ -9,11 +9,6 @@ def show_overview():
     Aktuelle Flugdaten (Abflugzeit, Ankunftszeit, Flugstatus usw.) werden von der Lufthansa-API abgerufen.
     Die ADSBexchange-API liefert Live-Daten des Flugzeugs. Basierend auf den Positionen des Flughafens und des Flugzeugs sowie unter Anwendung der Haversine-Formel wird die aktuelle Position des Flugzeugs berechnet und die Flugroute dargestellt (siehe unten).
     """)
-    # Daten zunächst abrufen
-    df = fetch_data()
-
-    # Aktuelles Datum
-    current_date = datetime.datetime.now().strftime('%A, %d %B %Y')
 
     # Lufthansa-Logo und Titel hinzufügen
     #st.markdown(
