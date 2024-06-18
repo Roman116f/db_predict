@@ -27,46 +27,6 @@ def show_overview():
     #    unsafe_allow_html=True,
     #)
 
-
-    # HTML für den Header mit eingebettetem Bild
-    header_html = f"""
-    <div style="display: flex; align-items: center;">
-        <h3>Lufthansa, LH860</h3>
-    </div>
-    """
-    st.markdown(header_html, unsafe_allow_html=True)
-
-
-    # HTML-Inhalte einbetten
-    st.markdown(flight_info, unsafe_allow_html=True)
-
-    # Karte erstellen und anzeigen
-    current_lat = current_flight['lat']
-    current_lon = current_flight['lon']
-    aircraft_map = create_map(current_lat, current_lon, current_flight)
-
-    # Hinzufügen von benutzerdefiniertem CSS, um die Ränder zu entfernen
-    st.markdown(
-        """
-        <style>
-        .stApp {
-            margin: 0px;
-            padding: 0px;
-        }
-        .main > div {
-            padding: 80px;
-        }
-        iframe {
-            margin: 0px;
-            padding: 0px;
-            display: block;
-            border: none;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
 from PIL import Image
 
 # Bild laden und Größe anpassen
