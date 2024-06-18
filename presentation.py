@@ -98,7 +98,7 @@ st.sidebar.markdown("""
     .links {
         margin-top: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         gap: 10px;
     }
     .links a {
