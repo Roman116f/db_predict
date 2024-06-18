@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="Flight Status - Fetching Live API Data", layout="wide")
+st.set_page_config(page_title="Real-Time Flight Status: Fetching Live API Data and Storing in Cloud Database (APIs, Python, AWS Lambda, MongoDB)", layout="wide")
 
 def show_overview():
-    st.title("Flight Status - Fetching Live API Data")
+    st.title("Real-Time Flight Status: Fetching Live API Data and Storing in Cloud Database (APIs, Python, AWS Lambda, MongoDB)")
     st.markdown("""
     English:
     This AWS Lambda function retrieves flight data and aircraft information in real time and stores it in a cloud database (MongoDB). 
