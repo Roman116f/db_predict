@@ -112,7 +112,7 @@ st.sidebar.markdown("""
 def main():
     st.sidebar.image(image, use_column_width=False)
     st.sidebar.markdown("""
-    <div class="center-text">
+    <div>
     Roman Langolf<br>
     <span class="data-scientist">Data Scientist</span>
     <div class="links">
