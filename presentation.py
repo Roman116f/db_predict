@@ -8,7 +8,7 @@ def show_overview():
     English:
     This AWS Lambda function retrieves flight data and aircraft information in real time and stores it in a cloud database (MongoDB). 
     Current flight data (departure time, arrival time, flight status, etc.) is retrieved from the Lufthansa API.
-    The ADSBexchange API provides live data from the aircraft. Based on the positions of the airport and the aircraft and using the Haversine formula, the current position of the aircraft is calculated and the flight route is displayed
+    The ADSBexchange API provides live data from the aircraft. Based on the positions of the airport and the aircraft and using the Haversine formula, the current position of the aircraft is calculated and the flight route is displayed (see below).
     
     Deutsch:
     Diese AWS Lambda-Funktion ruft in Echtzeit Flugdaten und Flugzeuginformationen ab und speichert sie in einer Cloud-Datenbank (MongoDB). 
