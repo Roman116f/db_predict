@@ -32,6 +32,7 @@ def show_overview():
 from PIL import Image
 
 # Bild laden und Größe anpassen
+
 image = Image.open('roman.png')
 image = image.resize((200, 200))
 
